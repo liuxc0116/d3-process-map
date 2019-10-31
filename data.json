@@ -1,0 +1,36 @@
+{
+    "data": {
+        "node1": {
+            "name": "node1", 
+            "type": "group0", 
+            "depends": [
+                "node2"
+            ], 
+            "dependedOnBy": [
+                "node3"
+            ], 
+            "docs": "<h2>node1</h2>"
+        },
+        "node2": {
+            "name": "node2", 
+            "type": "group1", 
+            "depends": [
+                "node3"
+            ], 
+            "dependedOnBy": [
+            ], 
+            "docs": "<h2>node2</h2>"
+        },
+        "node3": {
+            "name": "node3", 
+            "type": "group2", 
+            "depends": [
+                "node1"
+            ], 
+            "dependedOnBy": [
+            ], 
+            "docs": "<h2>node3</h2>"
+        }
+    }, 
+    "errors": []
+}
