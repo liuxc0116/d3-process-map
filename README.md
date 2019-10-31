@@ -4,7 +4,7 @@ This is a PHP web application that displays a directed acyclic graph in a
 modern web browser using [d3.js](http://d3js.org/).  It is designed for
 illustrating the relationships between objects in a process.
 
-PS: 如果你不会搭建PHP WEB环境，可以直接访问index.html. data.json文件是index.html加载的数据源。
+PS: 如果你不会搭建PHP WEB环境，可以把项目发布在HTTP服务器上如nginx，访问index.html可以看到运行效果. data.json文件是index.html加载的数据源。
 
 ### Examples
 
